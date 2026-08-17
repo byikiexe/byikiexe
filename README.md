@@ -1,16 +1,27 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="byiki.exe">
+</p>
 
-<!--
-**byikiexe/byikiexe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="./assets/currently-building.svg" width="100%">
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+<p align="center">
+  <img src="./assets/stack.svg" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="./assets/creative.svg" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%">
+</p>
