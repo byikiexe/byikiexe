@@ -1,0 +1,103 @@
+<svg width="580" height="310" viewBox="0 0 580 310" fill="none"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<style>
+.mono {
+  font-family: "SFMono-Regular","Cascadia Code","Roboto Mono",
+  "Liberation Mono",Consolas,monospace;
+}
+.sans {
+  font-family: Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+</style>
+</defs>
+
+<!-- CARD -->
+<rect x="1" y="1" width="578" height="308" rx="14"
+      fill="#080B0D" stroke="#1C252B" stroke-width="2"/>
+
+<!-- HEADER -->
+<circle cx="28" cy="29" r="4" fill="#47E0FF"/>
+
+<text x="43" y="33"
+      class="mono"
+      font-size="11"
+      letter-spacing="2"
+      fill="#77858C">
+WHOAMI
+</text>
+
+<text x="548" y="33"
+      text-anchor="end"
+      class="mono"
+      font-size="10"
+      fill="#536168">
+01
+</text>
+
+<line x1="24" y1="53" x2="556" y2="53" stroke="#1C252B"/>
+
+<!-- PROMPT -->
+<text x="28" y="89"
+      class="mono"
+      font-size="12"
+      fill="#47E0FF">
+&gt;
+<tspan dx="6" fill="#77858C">cat about.txt</tspan>
+</text>
+
+<!-- CONTENT -->
+<text x="28" y="132"
+      class="sans"
+      font-size="22"
+      font-weight="600"
+      fill="#F1F5F7">
+Developer.
+</text>
+
+<text x="28" y="163"
+      class="sans"
+      font-size="22"
+      font-weight="600"
+      fill="#F1F5F7">
+Maker.
+</text>
+
+<text x="28" y="194"
+      class="sans"
+      font-size="22"
+      font-weight="600"
+      fill="#F1F5F7">
+Creative human.
+</text>
+
+<!-- DESCRIPTION -->
+<text x="28" y="232"
+      class="sans"
+      font-size="13"
+      fill="#77858C">
+I like understanding how things work
+</text>
+
+<text x="28" y="252"
+      class="sans"
+      font-size="13"
+      fill="#77858C">
+and building better versions of them.
+</text>
+
+<!-- FOOTER -->
+<line x1="24" y1="276" x2="556" y2="276" stroke="#1C252B"/>
+
+<circle cx="29" cy="293" r="3" fill="#47E0FF"/>
+
+<text x="40" y="297"
+      class="mono"
+      font-size="9"
+      letter-spacing="1"
+      fill="#536168">
+CURIOSITY.EXE RUNNING
+</text>
+
+</svg>

@@ -1,0 +1,217 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+<radialGradient id="telemetryGlow" cx="0" cy="0" r="1"
+ gradientUnits="userSpaceOnUse"
+ gradientTransform="translate(880 210) rotate(160) scale(520 340)">
+    <stop stop-color="#47E0FF" stop-opacity=".06"/>
+    <stop offset="1" stop-color="#47E0FF" stop-opacity="0"/>
+</radialGradient>
+
+<style>
+.mono {
+    font-family:"SFMono-Regular","Cascadia Code","Roboto Mono",
+    "Liberation Mono",Consolas,monospace;
+}
+.sans {
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+</style>
+</defs>
+
+<!-- CARD -->
+
+<rect x="1" y="1" width="1198" height="428" rx="16"
+ fill="#080B0D" stroke="#1C252B" stroke-width="2"/>
+
+<rect x="2" y="2" width="1196" height="426" rx="15"
+ fill="url(#telemetryGlow)"/>
+
+<!-- HEADER -->
+
+<circle cx="34" cy="33" r="4" fill="#47E0FF"/>
+
+<text x="50" y="37" class="mono" font-size="11"
+ letter-spacing="2" fill="#77858C">
+BYIKI.OS / TELEMETRY
+</text>
+
+<text x="1164" y="37" text-anchor="end"
+ class="mono" font-size="10" fill="#536168">
+06
+</text>
+
+<line x1="30" y1="59" x2="1170" y2="59" stroke="#1C252B"/>
+
+<!-- COMMAND -->
+
+<text x="35" y="96" class="mono" font-size="11" fill="#47E0FF">
+&gt;
+<tspan dx="7" fill="#77858C">systemctl status creative-engine</tspan>
+</text>
+
+<!-- LEFT PANEL -->
+
+<rect x="35" y="120" width="535" height="224" rx="10"
+ fill="#0D1117" stroke="#1C252B"/>
+
+<text x="58" y="151" class="mono" font-size="9"
+ letter-spacing="2" fill="#536168">
+PROCESS.MONITOR
+</text>
+
+<!-- PROCESS 1 -->
+
+<text x="58" y="187" class="mono" font-size="11" fill="#A5B0B5">
+creative_engine
+</text>
+
+<circle cx="420" cy="183" r="3" fill="#47E0FF"/>
+
+<text x="535" y="187" text-anchor="end"
+ class="mono" font-size="10" fill="#47E0FF">
+RUNNING
+</text>
+
+<!-- PROCESS 2 -->
+
+<text x="58" y="220" class="mono" font-size="11" fill="#A5B0B5">
+curiosity.exe
+</text>
+
+<circle cx="420" cy="216" r="3" fill="#47E0FF"/>
+
+<text x="535" y="220" text-anchor="end"
+ class="mono" font-size="10" fill="#47E0FF">
+RUNNING
+</text>
+
+<!-- PROCESS 3 -->
+
+<text x="58" y="253" class="mono" font-size="11" fill="#A5B0B5">
+new_ideas
+</text>
+
+<circle cx="420" cy="249" r="3" fill="#47E0FF"/>
+
+<text x="535" y="253" text-anchor="end"
+ class="mono" font-size="10" fill="#47E0FF">
+OVERFLOW
+</text>
+
+<!-- PROCESS 4 -->
+
+<text x="58" y="286" class="mono" font-size="11" fill="#A5B0B5">
+consistency.exe
+</text>
+
+<circle cx="420" cy="282" r="3" fill="#77858C"/>
+
+<text x="535" y="286" text-anchor="end"
+ class="mono" font-size="10" fill="#77858C">
+IMPROVING
+</text>
+
+<!-- PROCESS 5 -->
+
+<text x="58" y="319" class="mono" font-size="11" fill="#A5B0B5">
+next_project.sh
+</text>
+
+<circle cx="420" cy="315" r="3" fill="#47E0FF"/>
+
+<text x="535" y="319" text-anchor="end"
+ class="mono" font-size="10" fill="#47E0FF">
+QUEUED
+</text>
+
+<!-- RIGHT PANEL -->
+
+<rect x="600" y="120" width="565" height="224" rx="10"
+ fill="#0D1117" stroke="#1C252B"/>
+
+<text x="624" y="151" class="mono" font-size="9"
+ letter-spacing="2" fill="#536168">
+CREATIVE TELEMETRY
+</text>
+
+<!-- CURIOSITY -->
+
+<text x="624" y="184" class="mono" font-size="10" fill="#77858C">
+CURIOSITY
+</text>
+
+<rect x="760" y="176" width="270" height="6" rx="3" fill="#1C252B"/>
+<rect x="760" y="176" width="270" height="6" rx="3" fill="#47E0FF"/>
+
+<text x="1135" y="184" text-anchor="end"
+ class="mono" font-size="9" fill="#47E0FF">
+MAX
+</text>
+
+<!-- IDEAS -->
+
+<text x="624" y="220" class="mono" font-size="10" fill="#77858C">
+IDEAS QUEUE
+</text>
+
+<rect x="760" y="212" width="270" height="6" rx="3" fill="#1C252B"/>
+<rect x="760" y="212" width="242" height="6" rx="3" fill="#47E0FF"/>
+
+<text x="1135" y="220" text-anchor="end"
+ class="mono" font-size="9" fill="#47E0FF">
+HIGH
+</text>
+
+<!-- EXPERIMENTATION -->
+
+<text x="624" y="256" class="mono" font-size="10" fill="#77858C">
+EXPERIMENT
+</text>
+
+<rect x="760" y="248" width="270" height="6" rx="3" fill="#1C252B"/>
+<rect x="760" y="248" width="216" height="6" rx="3" fill="#47E0FF"/>
+
+<text x="1135" y="256" text-anchor="end"
+ class="mono" font-size="9" fill="#47E0FF">
+ACTIVE
+</text>
+
+<!-- CURRENT SIGNAL -->
+
+<text x="624" y="296" class="mono" font-size="9"
+ letter-spacing="2" fill="#536168">
+CURRENT SIGNAL
+</text>
+
+<text x="624" y="320" class="mono" font-size="11" fill="#F1F5F7">
+CODE
+<tspan fill="#354047"> × </tspan>
+ART
+<tspan fill="#354047"> × </tspan>
+CURIOSITY
+</text>
+
+<text x="1135" y="320" text-anchor="end"
+ class="mono" font-size="10" fill="#47E0FF">
+CONNECTED
+</text>
+
+<!-- FOOTER -->
+
+<line x1="30" y1="369" x2="1170" y2="369" stroke="#1C252B"/>
+
+<circle cx="36" cy="399" r="3" fill="#47E0FF"/>
+
+<text x="49" y="403" class="mono" font-size="9"
+ letter-spacing="1" fill="#77858C">
+NO PRODUCTIVITY METRICS DETECTED
+</text>
+
+<text x="1164" y="403" text-anchor="end"
+ class="mono" font-size="9" letter-spacing="1" fill="#536168">
+UPTIME / SOMEHOW STILL RUNNING
+</text>
+
+</svg>

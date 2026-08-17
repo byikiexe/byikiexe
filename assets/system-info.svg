@@ -1,0 +1,508 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<radialGradient id="systemGlow"
+    cx="0" cy="0" r="1"
+    gradientUnits="userSpaceOnUse"
+    gradientTransform="translate(850 170) rotate(160) scale(520 300)">
+    <stop stop-color="#47E0FF" stop-opacity="0.055"/>
+    <stop offset="1" stop-color="#47E0FF" stop-opacity="0"/>
+</radialGradient>
+
+<style>
+.mono {
+    font-family:
+        "SFMono-Regular",
+        "Cascadia Code",
+        "Roboto Mono",
+        "Liberation Mono",
+        Consolas,
+        monospace;
+}
+
+.sans {
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+}
+</style>
+
+</defs>
+
+
+<!-- ====================================================== -->
+<!-- CARD                                                   -->
+<!-- ====================================================== -->
+
+<rect
+    x="1"
+    y="1"
+    width="1198"
+    height="388"
+    rx="16"
+    fill="#080B0D"
+    stroke="#1C252B"
+    stroke-width="2"
+/>
+
+<rect
+    x="2"
+    y="2"
+    width="1196"
+    height="386"
+    rx="15"
+    fill="url(#systemGlow)"
+/>
+
+
+<!-- ====================================================== -->
+<!-- HEADER                                                 -->
+<!-- ====================================================== -->
+
+<circle
+    cx="34"
+    cy="33"
+    r="4"
+    fill="#47E0FF"
+/>
+
+<text
+    x="50"
+    y="37"
+    class="mono"
+    font-size="11"
+    letter-spacing="2"
+    fill="#77858C">
+    SYSTEM.INFO
+</text>
+
+<text
+    x="1164"
+    y="37"
+    text-anchor="end"
+    class="mono"
+    font-size="10"
+    fill="#536168">
+    03
+</text>
+
+<line
+    x1="30"
+    y1="59"
+    x2="1170"
+    y2="59"
+    stroke="#1C252B"
+/>
+
+
+<!-- ====================================================== -->
+<!-- COMMAND                                                -->
+<!-- ====================================================== -->
+
+<text
+    x="34"
+    y="96"
+    class="mono"
+    font-size="12"
+    fill="#47E0FF">
+    &gt;
+    <tspan dx="7" fill="#77858C">./stack --verbose</tspan>
+</text>
+
+
+<!-- ====================================================== -->
+<!-- COLUMN SEPARATORS                                      -->
+<!-- ====================================================== -->
+
+<line
+    x1="315"
+    y1="123"
+    x2="315"
+    y2="292"
+    stroke="#1C252B"
+/>
+
+<line
+    x1="600"
+    y1="123"
+    x2="600"
+    y2="292"
+    stroke="#1C252B"
+/>
+
+<line
+    x1="885"
+    y1="123"
+    x2="885"
+    y2="292"
+    stroke="#1C252B"
+/>
+
+
+<!-- ====================================================== -->
+<!-- BACKEND                                                -->
+<!-- ====================================================== -->
+
+<text
+    x="35"
+    y="143"
+    class="mono"
+    font-size="10"
+    letter-spacing="2"
+    fill="#47E0FF">
+    01 / BACKEND
+</text>
+
+<text
+    x="35"
+    y="184"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    PHP
+</text>
+
+<text
+    x="35"
+    y="218"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    Laravel
+</text>
+
+<text
+    x="35"
+    y="252"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    MySQL
+</text>
+
+<text
+    x="35"
+    y="282"
+    class="mono"
+    font-size="10"
+    fill="#536168">
+    REST APIs
+</text>
+
+
+<!-- ====================================================== -->
+<!-- FRONTEND                                               -->
+<!-- ====================================================== -->
+
+<text
+    x="350"
+    y="143"
+    class="mono"
+    font-size="10"
+    letter-spacing="2"
+    fill="#47E0FF">
+    02 / FRONTEND
+</text>
+
+<text
+    x="350"
+    y="184"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    JavaScript
+</text>
+
+<text
+    x="350"
+    y="218"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    Livewire
+</text>
+
+<text
+    x="350"
+    y="252"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    Tailwind CSS
+</text>
+
+<text
+    x="350"
+    y="282"
+    class="mono"
+    font-size="10"
+    fill="#536168">
+    Alpine.js
+</text>
+
+
+<!-- ====================================================== -->
+<!-- SYSTEM                                                 -->
+<!-- ====================================================== -->
+
+<text
+    x="635"
+    y="143"
+    class="mono"
+    font-size="10"
+    letter-spacing="2"
+    fill="#47E0FF">
+    03 / SYSTEM
+</text>
+
+<text
+    x="635"
+    y="184"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    Linux
+</text>
+
+<text
+    x="635"
+    y="218"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    Nginx
+</text>
+
+<text
+    x="635"
+    y="252"
+    class="sans"
+    font-size="17"
+    font-weight="600"
+    fill="#F1F5F7">
+    Git
+</text>
+
+<text
+    x="635"
+    y="282"
+    class="mono"
+    font-size="10"
+    fill="#536168">
+    SSH / CLI
+</text>
+
+
+<!-- ====================================================== -->
+<!-- EXPLORING                                              -->
+<!-- ====================================================== -->
+
+<text
+    x="920"
+    y="143"
+    class="mono"
+    font-size="10"
+    letter-spacing="2"
+    fill="#47E0FF">
+    04 / EXPLORING
+</text>
+
+<text
+    x="920"
+    y="184"
+    class="sans"
+    font-size="21"
+    font-weight="600"
+    fill="#F1F5F7">
+    Drupal
+</text>
+
+<text
+    x="920"
+    y="211"
+    class="mono"
+    font-size="10"
+    fill="#77858C">
+    BACK-END
+</text>
+
+
+<!-- PROGRESS BAR -->
+
+<rect
+    x="920"
+    y="237"
+    width="215"
+    height="5"
+    rx="2.5"
+    fill="#1C252B"
+/>
+
+<rect
+    x="920"
+    y="237"
+    width="153"
+    height="5"
+    rx="2.5"
+    fill="#47E0FF"
+/>
+
+<text
+    x="920"
+    y="268"
+    class="mono"
+    font-size="9"
+    letter-spacing="1"
+    fill="#536168">
+    LEARNING...
+</text>
+
+<text
+    x="1135"
+    y="268"
+    text-anchor="end"
+    class="mono"
+    font-size="9"
+    fill="#77858C">
+    ACTIVE
+</text>
+
+
+<!-- ====================================================== -->
+<!-- FOOTER / PROCESS                                       -->
+<!-- ====================================================== -->
+
+<line
+    x1="30"
+    y1="319"
+    x2="1170"
+    y2="319"
+    stroke="#1C252B"
+/>
+
+<text
+    x="35"
+    y="351"
+    class="mono"
+    font-size="9"
+    letter-spacing="1"
+    fill="#536168">
+    PROCESS
+</text>
+
+<circle
+    cx="108"
+    cy="347"
+    r="3"
+    fill="#47E0FF"
+/>
+
+<text
+    x="120"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#77858C">
+    LEARN
+</text>
+
+<text
+    x="169"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#354047">
+    →
+</text>
+
+<text
+    x="193"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#77858C">
+    BUILD
+</text>
+
+<text
+    x="242"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#354047">
+    →
+</text>
+
+<text
+    x="266"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#77858C">
+    BREAK
+</text>
+
+<text
+    x="315"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#354047">
+    →
+</text>
+
+<text
+    x="339"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#77858C">
+    DEBUG
+</text>
+
+<text
+    x="388"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#354047">
+    →
+</text>
+
+<text
+    x="412"
+    y="351"
+    class="mono"
+    font-size="10"
+    fill="#47E0FF">
+    BUILD BETTER
+</text>
+
+
+<!-- RIGHT FOOTER -->
+
+<text
+    x="1165"
+    y="351"
+    text-anchor="end"
+    class="mono"
+    font-size="9"
+    letter-spacing="1"
+    fill="#536168">
+    BYIKI OS / STACK
+</text>
+
+</svg>
