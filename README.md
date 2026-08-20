@@ -1,7 +1,6 @@
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="byiki.exe — Vicki Web Developer">
 </p>
-<br>
 
 <p align="center">
   <img src="./assets/about.svg" width="49%" alt="About Victoria">
@@ -9,7 +8,6 @@
     <img src="./assets/currently-building.svg" width="49%" alt="DevTools byiki.exe">
   </a>
 </p>
-<br>
 
 <p align="center">
   <img
@@ -19,8 +17,6 @@
   >
 </p>
 
-<br>
-
 <p align="center">
   <img
     src="./assets/creative-process.svg"
@@ -28,8 +24,6 @@
     alt="Creative process — code, photography, illustration and design"
   >
 </p>
-
-<br>
 
 <p align="center">
   <img
@@ -39,8 +33,6 @@
   >
 </p>
 
-<br>
-
 <p align="center">
   <img
     src="./assets/telemetry.svg"
@@ -48,8 +40,6 @@
     alt="byiki.exe creative telemetry"
   >
 </p>
-
-<br>
 
 <p align="center">
   <img
